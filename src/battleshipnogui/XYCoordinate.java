@@ -1,7 +1,7 @@
 /*
 Project: Battleship
 File: XYCoordinate.java
-Description: Defines a position on the game grid using x and y values, stores grid coordinates to identify a specific block or ship segment.
+Description: Defines a position on the game grid using x and y values, stores grid coordinates to identify a specific block or ship segment. Compatible without GUI.
 Date: May. 29, 2024 - Jun. 17, 2024
 Author: Emily Au
 */

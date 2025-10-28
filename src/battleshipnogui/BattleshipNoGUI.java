@@ -1,7 +1,7 @@
 /*
 Project: Battleship
 File: BattleshipNoGUI.java
-Description: Non-GUI Battleship Game Program (Easy or Hard Difficulty)
+Description: Non-GUI Battleship Game Program (Easy or Hard Difficulty).
 Date: May. 29, 2024 - Jun. 17, 2024
 Author: Emily Au
 */

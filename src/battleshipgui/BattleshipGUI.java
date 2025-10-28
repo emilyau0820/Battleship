@@ -1,7 +1,7 @@
 /*
 Project: Battleship
 File: BattleshipGUI.java
-Description: GUI Battleship Game Program
+Description: GUI Battleship Game Program.
 Date: May. 29, 2024 - Jun. 17, 2024
 Author: Emily Au, Xuanyao Li
 */

@@ -1,12 +1,12 @@
 /*
 Project: Battleship
 File: Ship.java
-Description: Represents a vessel occupying multiple connected blocks on the game grid, encapsulates the position, size, and hit state of a battleship.
+Description: Represents a vessel occupying multiple connected blocks on the game grid, encapsulates the position, size, and hit state of a battleship. Compatible with GUI.
 Date: May. 29, 2024 - Jun. 17, 2024
-Author: Emily Au
+Author: Emily Au, Xuanyao Li
 */
 
-package src;
+package battleshipgui;
 
 public class Ship {
 	
@@ -19,6 +19,11 @@ public class Ship {
 	public Ship(String initialName, int initialLength) {
 		name = initialName;
 		length = initialLength;
+		isDestroyed = false;
+	}
+	public Ship() {
+		name = "";
+		length = 0;
 		isDestroyed = false;
 	}
 	
@@ -53,5 +58,9 @@ public class Ship {
 	public void setIsDestroyed(boolean newIsDestroyed) {
 		isDestroyed = newIsDestroyed;
 	}
-	
+
+	@Override
+	public String toString() {
+		return name;
+	}
 }

@@ -1,7 +1,7 @@
 /*
 Project: Battleship
 File: Block.java
-Description: Represents a single cell on the grid, optionally holding a ship segment and tracking hit status.
+Description: Represents a single cell on the grid, optionally holding a ship segment and tracking hit status. Compatible with and without GUI.
 Date: May. 29, 2024 - Jun. 17, 2024
 Author: Emily Au
 */
